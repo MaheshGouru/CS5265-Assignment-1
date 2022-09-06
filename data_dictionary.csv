@@ -1,0 +1,5 @@
+Feature,Description
+stereo,Time as logged by configuration for performing stereo analysis
+convolution,Time as logged by configuration for performing convolution analysis
+raycasting,Time as logged by configuration for performing raycasting
+accuracy,evaluated by comparing the predictions against replicated execution times for verified parameter configurations
