@@ -1,13 +1,9 @@
-# CS5265-Assignment-1
-Week 1 Assignment: Machine Learning Environment
-
-### Comment 2 from Jeff
-The proposed project seems well-formed and thought-out, with sufficiently technical detail and data descriptions.
-=======
 # CS5265-Assignment-2
 ~~Week 1 Assignment: Machine Learning Environment~~
 
 Week 2 Assignment: Git and Github Environment
+### Comment (2) from Jeff
+The proposed project seems well-formed and thought-out, with sufficiently technical detail and data descriptions.
 
 ## Description of Metrics
 Note: Recommended to use all values presented in a confusion matrix 
