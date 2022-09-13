@@ -3,20 +3,20 @@ stereo,Time as logged by configuration for performing stereo analysis
 convolution,Time as logged by configuration for performing convolution analysis
 raycasting,Time as logged by configuration for performing raycasting
 accuracy,evaluated by comparing the predictions against replicated execution times for verified parameter configurations
-MWG, per-matrix 2D tiling at workgroup level: {16, 32, 64, 128} (integer)
-NWG, per-matrix 2D tiling at workgroup level: {16, 32, 64, 128} (integer)
-KWG, inner dimension of 2D tiling at workgroup level: {16, 32} (integer)
-MDIMC, local workgroup size: {8, 16, 32} (integer)
-NDIMC, local workgroup size: {8, 16, 32} (integer)
-MDIMA, local memory shape: {8, 16, 32} (integer)
-NDIMB, local memory shape: {8, 16, 32} (integer)
-KWI, kernel loop unrolling factor: {2, 8} (integer)
-VWM, per-matrix vector widths for loading and storing: {1, 2, 4, 8} (integer)
-VWN, per-matrix vector widths for loading and storing: {1, 2, 4, 8} (integer)
-STRM, enable stride for accessing off-chip memory within a single thread: {0, 1} (categorical)
-STRN, enable stride for accessing off-chip memory within a single thread: {0, 1} (categorical)
-SA, per-matrix manual caching of the 2D workgroup tile: {0, 1} (categorical)
-SB, per-matrix manual caching of the 2D workgroup tile: {0, 1} (categorical)
+MWG, per-matrix 2D tiling at workgroup level: {16 | 32 | 64 | 128} (integer)
+NWG, per-matrix 2D tiling at workgroup level: {16 | 32 | 64 | 128} (integer)
+KWG, inner dimension of 2D tiling at workgroup level: {16 | 32} (integer)
+MDIMC, local workgroup size: {8 | 16 | 32} (integer)
+NDIMC, local workgroup size: {8 | 16 | 32} (integer)
+MDIMA, local memory shape: {8 | 16 | 32} (integer)
+NDIMB, local memory shape: {8 | 16 | 32} (integer)
+KWI, kernel loop unrolling factor: {2 | 8} (integer)
+VWM, per-matrix vector widths for loading and storing: {1 | 2 | 4 | 8} (integer)
+VWN, per-matrix vector widths for loading and storing: {1 | 2 | 4 | 8} (integer)
+STRM, enable stride for accessing off-chip memory within a single thread: {0 | 1} (categorical)
+STRN, enable stride for accessing off-chip memory within a single thread: {0 | 1} (categorical)
+SA, per-matrix manual caching of the 2D workgroup tile: {0 | 1} (categorical)
+SB, per-matrix manual caching of the 2D workgroup tile: {0 | 1} (categorical)
 Run1, performance times in milliseconds (ms) for first independent run using the same parameters. They range between 13.25 and 3397.08.
 Run2, performance times in milliseconds (ms) for second independent run using the same parameters. They range between 13.25 and 3397.08.
 Run3, performance times in milliseconds (ms) for third independent run using the same parameters. They range between 13.25 and 3397.08.
